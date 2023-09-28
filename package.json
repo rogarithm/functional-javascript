@@ -1,7 +1,7 @@
 {
 	"type": "module",
 	"scripts": {
-		"test": "mocha sandbox.js"
+		"test": "mocha test/**/*.js"
 	},
 	"devDependencies": {
 		"chai": "^4.3.9",
