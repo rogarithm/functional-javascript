@@ -1,14 +1,6 @@
 import * as _ from 'underscore'
 
-export {addArrayElements, letters, naiveNth, isIndexed, nth, second, compareLessThanOrEqual, lessOrEqual, existy, truthy, comparator}
-
-function splat(fun) {
-	return function(array) {
-		return fun.apply(null, array);
-	};
-}
-
-var addArrayElements = splat(function(x, y) { return x + y });
+export {letters, naiveNth, isIndexed, nth, second, compareLessThanOrEqual, lessOrEqual, existy, truthy, comparator}
 
 //1.2.4
 const letters = ['a', 'b', 'c'];
